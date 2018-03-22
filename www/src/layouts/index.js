@@ -36,8 +36,8 @@ const TemplateWrapper = ({ children, data }) => {
         indexName="challenges"
       >
         <Header />
-        <Index indexName="guides" />
-        <Index indexName="youtube" />
+        {/* <Index indexName="guides" />
+        <Index indexName="youtube" /> */}
         <Configure hitsPerPage={8} />
         <main>{children()}</main>
       </InstantSearch>
